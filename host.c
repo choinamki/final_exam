@@ -47,7 +47,6 @@ int main()
 	int ranking_count = 1;
 	struct sigaction sa;
 	
-	t_message *test;
 	// make_shared_memory
 
 	if(-1==(id=shmget((key_t)KEY,MAXBUF,IPC_CREAT|0666)))
